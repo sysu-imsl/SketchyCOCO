@@ -2,7 +2,7 @@
 
 This repository hosts the ShetchyCOCO dataset. Please refer to our CVPR paper for more information: ["SketchyCOCO: Image Generation from Freehand Scene Sketches"](https://arxiv.org/abs/2003.02683).
 
-SketchyCOCO dataset can be explored by http://sysu-imsl.com/sketchcoco.html.
+SketchyCOCO dataset can be explored by http://sysu-imsl.com/sketchcoco.html#profile.
 
 ## Overview
 
@@ -44,7 +44,7 @@ SketchyCOCO dataset consists of two part:
 
 <h2 id="3">Google Drive Hosting</h2>
 
-+ [Object-level data]()
++ [Object-level data](https://drive.google.com/file/d/1FNsd5l_7SJQ0LRLXYcEMJkV8yWDqzh-F/view?usp=sharing)
 + [Scene-level data]()
 + [Others]()
 
