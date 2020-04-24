@@ -2,7 +2,7 @@
 
 This repository hosts the ShetchyCOCO dataset. Please refer to our CVPR paper for more information: ["SketchyCOCO: Image Generation from Freehand Scene Sketches"](https://arxiv.org/abs/2003.02683).
 
-SketchyCOCO dataset can be explored by http://sysu-imsl.com/sketchcoco.html#profile.
+SketchyCOCO dataset can be explored by http://sysu-imsl.com/SketchyCOCO/.
 
 ## Overview
 
