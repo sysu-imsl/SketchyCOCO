@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SketchyCOCO</title>
+    <link rel="stylesheet" type="text/css" href="https://yegor256.github.io/tacit/tacit.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/img.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+    <script src="assets/js/getImages.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top">
+        <h1 class="title">SketchyCOCO</h1>
+        <p>The data will be presented in pairs. A pair of the data has the same number.</p>
+    </div>
+    <div class="container">
+        <div class="middle" id="output">
+            <h1></h1>
+        </div>
+        <div class="left">
+            <div class="menu">
+                <ul>
+                    <li class="item" id="profile">
+                        <a href="#profile" class="btn"><i class="far fa-user"></i>Objects</a>
+                        <div class="smenu">
+                            <a href="javascript:void(0);" data="Objects" data-type="2" onclick="onClick(this)">bicycle</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="3" onclick="onClick(this)">car</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="4" onclick="onClick(this)">motorcycle</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="5" onclick="onClick(this)">airplane</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="10" onclick="onClick(this)">traffic light</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="11" onclick="onClick(this)">fire hydrant</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="11" onclick="onClick(this)">fire hydrant</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="17" onclick="onClick(this)">cat</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="18" onclick="onClick(this)">dog</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="19" onclick="onClick(this)">house</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="20" onclick="onClick(this)">sheep</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="21" onclick="onClick(this)">cow</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="22" onclick="onClick(this)">elephant</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="24" onclick="onClick(this)">zebra</a>
+                            <a href="javascript:void(0);" data="Objects" data-type="25" onclick="onClick(this)">giraffe</a>
+                        </div>
+                    </li>
+
+                    <li class="item" id="messages">
+                        <a href="#messages" class="btn" data="Scenes" onclick="onClick(this)"><i class="far fa-envelope"></i>Scenes</a>
+                        <!-- <div class="smenu">
+                            <a href="javascript:void(0);" data="Scenes" data-type="train" onclick="onClick(this)">train</a>
+                            <a href="javascript:void(0);" data="Scenes" data-type="val" onclick="onClick(this)">val</a>
+                        </div> -->
+                    </li>
+                    <!-- <li class="item">
+                        <a href="#" class="btn"><i class="far fa-sign-out-alt"></i>Introduction</a>
+                    </li> -->
+                </ul>
+            </div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
+

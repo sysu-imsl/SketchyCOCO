@@ -11,7 +11,7 @@ function onClick(arg) {
         gt_path = 'Object/GT/';
         json_path = 'https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-SketchyCOCO@v1.0/Object.json'
     } else {
-        sketch_path = 'images/Scene/Sketch/';
+        sketch_path = 'Scene/Sketch/';
         gt_path = 'Scene/GT/';
         json_path = 'https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-SketchyCOCO@v1.0/Scene.json'
     }
