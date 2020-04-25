@@ -42,11 +42,11 @@ SketchyCOCO dataset consists of two part:
     + sketches_background - Sketches for building the background sketches
 + matlab_code - Codes for building the dataset
 
-<h2 id="3">Google Drive Hosting</h2>
+<h2 id="3">Google Drive Hosting(in preparing)</h2>
 
-+ [Object-level data](https://drive.google.com/open?id=1FNsd5l_7SJQ0LRLXYcEMJkV8yWDqzh-F)
-+ [Scene-level data](https://drive.google.com/open?id=1ApjDhGjtqfFEMzm6dmyhS-2aXnnYLxnj)
-+ [Others](https://drive.google.com/open?id=1JxTmgLOM8P-3U2kNzTFP6fm2TS-ZAnPT)
++ Object-level data
++ Scene-level data
++ Others
 
 <h2 id="4">Optional</h2>
 
