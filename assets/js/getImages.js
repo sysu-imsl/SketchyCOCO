@@ -29,26 +29,38 @@ function onClick(arg) {
             // console.log(tmp)
             var counter = 0;
             var index = 0;
+            var names = new Array()
             var pre_head = "https://cdn.jsdelivr.net/gh/sysu-imsl/CDN-for-SketchyCOCO@v1.0/data/";
             for (var n = 0; n<tmp.length; n++) {
                 path = tmp[n];
+                // name = path.split('/')[1].split('.')[0]
+                // names[counter % 2] = name
                 if (counter % 2 == 0 && counter != 0) {
                     result_array.push("        </tr>\n        <tr>\n          <td>\n            <a href=" + pre_head + sketch_path + path + ">" + "<img src=" + pre_head + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
-                    result_array.push("          <td>\n            <a href=" + pre_head + gt_path + path + ">" + "<img src=" + pre_head + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
+                    result_array.push("          <td style=\"border-right: 3px double\">\n            <a href=" + pre_head + gt_path + path + ">" + "<img src=" + pre_head + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
                 } else {
                     result_array.push("          <td>\n            <a href=" + pre_head + sketch_path + path + ">" + "<img src=" + pre_head + sketch_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
-                    result_array.push("          <td>\n            <a href=" + pre_head + gt_path + path + ">" + "<img src=" + pre_head + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
+                    result_array.push("          <td style=\"border-right: 3px double\">\n            <a href=" + pre_head + gt_path + path + ">" + "<img src=" + pre_head + gt_path + path +  " alt=\"\" /></div></a>" + "\n       </td>");
                     if (counter != 0) {
-                        result_array.push("        <tr>\n         <td>sketch(" + index + ")</td>\n         <td>ground-truth(" + index + ")</td>         <td>sketch("+(index+1)+")</td>\n         <td>ground-truth("+(index+1)+")</td></tr>");
+                        // result_array.push("        <tr>\n         <td>sketch(" + names[0] + ")</td>\n         <td style=\"border-right: 3px double\">ground-truth(" + names[0] + ")</td>         <td>sketch("+(names[1])+")</td>\n         <td>ground-truth("+(names[1])+")</td></tr>");
+                        result_array.push("        <tr>\n         <td>sketch</td>\n         <td style=\"border-right: 3px double\">ground-truth</td>         <td>sketch</td>\n         <td style=\"border-right: 3px double\">ground-truth</td></tr>");
+                        // result_array.push("        <tr>\n         <td style=\"border-right: 3px double\" colspan=\"2\">" + names[0] + "</td>         <td colspan=\"2\">"+(names[1])+"</td></tr>");
                         index = index + 2;
                     }
                 }
                 counter++;
             }
-
+            if (counter % 2 != 0) {
+                result_array.push("        <tr>\n         <td>sketch(" + names[0] + ")</td>\n         <td style=\"border-right: 3px double\">ground-truth(" + names[0] + ")</td>   </tr>");
+            }
+            console.log(counter)
             output.innerHTML = "              <table>\n        <tr>\n" + result_array.join("\n") + "        </tr>\n      </table>";
         }
     })
 
-
 }
+
+$(document).ready(function () {
+    document.getElementById("first").click();
+    $('#start').trigger("onclick")
+});

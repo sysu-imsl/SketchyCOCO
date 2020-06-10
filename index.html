@@ -11,7 +11,7 @@
 <body>
     <div class="top">
         <h1 class="title">SketchyCOCO</h1>
-        <p>The data will be presented in pairs. A pair of the data has the same number.</p>
+        <!-- <p>The data will be presented in pairs. A pair of the data has the same number.</p> -->
     </div>
     <div class="container">
         <div class="middle" id="output">
@@ -21,9 +21,9 @@
             <div class="menu">
                 <ul>
                     <li class="item" id="profile">
-                        <a href="#profile" class="btn"><i class="far fa-user"></i>Objects</a>
+                        <a id="first" href="#profile" class="btn"><i class="far fa-user"></i>Objects</a>
                         <div class="smenu">
-                            <a href="javascript:void(0);" data="Objects" data-type="2" onclick="onClick(this)">bicycle</a>
+                            <a id="start" href="javascript:void(0);" data="Objects" data-type="2" onclick="onClick(this)">bicycle</a>
                             <a href="javascript:void(0);" data="Objects" data-type="3" onclick="onClick(this)">car</a>
                             <a href="javascript:void(0);" data="Objects" data-type="4" onclick="onClick(this)">motorcycle</a>
                             <a href="javascript:void(0);" data="Objects" data-type="5" onclick="onClick(this)">airplane</a>
@@ -41,7 +41,7 @@
                     </li>
 
                     <li class="item" id="messages">
-                        <a href="#messages" class="btn" data="Scenes" onclick="onClick(this)"><i class="far fa-envelope"></i>Scenes</a>
+                        <a href="javascript:void(0);" class="btn" data="Scenes" onclick="onClick(this)"><i class="far fa-envelope"></i>Scenes</a>
                         <!-- <div class="smenu">
                             <a href="javascript:void(0);" data="Scenes" data-type="train" onclick="onClick(this)">train</a>
                             <a href="javascript:void(0);" data="Scenes" data-type="val" onclick="onClick(this)">val</a>
