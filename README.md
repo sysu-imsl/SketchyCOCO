@@ -10,6 +10,7 @@ SketchyCOCO dataset can be explored by http://sysu-imsl.com/SketchyCOCO/#profile
 + [Captions of the file structure in the dataset](#2)
 + [Google Drive Hosting](#3)
 + [Optional](#4)
++ [Licensing](#5)
 
 <h2 id="1">Dataset</h2>
 
@@ -40,6 +41,7 @@ SketchyCOCO dataset consists of two part:
     + foreground - Foreground images and sketches used in the scene
     + intermediate product - Images of {generated image&background sketch} data
     + sketches_background - Sketches for building the background sketches
+  + Image Source - Files storing the source of images
 + matlab_code - Codes for building the dataset
 
 <h2 id="3">Google Drive Hosting(in preparing)</h2>
@@ -63,4 +65,11 @@ SketchyCOCO dataset consists of two part:
 + The pairs of the objects can be obtained by running ./matlab_code/preprocess_combine.m after changing the parameters in the code.
 
 + The pairs of the scenes can be obtained by running ./matlab_code/combineScript.m after changing the parameters in the code.
+
+<h2 id="5">Licensing</h2>
+SketchyCOCO is a derivative work of the COCO-Stuff, the Sketchy Database. The authors of the COCO-Stuff, the Sketchy Database do not in any form endorse this work. Different licenses apply:
+
++ Images: [Flicker Terms of use](https://info.yahoo.com/legal/us/yahoo/utos/utos-173.html)
++ Sketches: [Creative Commons Attribution 4.0 License](http://cocodataset.org/#termsofuse)
++ SketchyCOCO code: [Creative Commons Attribution 4.0 License](http://cocodataset.org/#termsofuse)
 
