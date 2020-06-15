@@ -58,6 +58,7 @@ We increase 4662 images for 9 objects, their correspondence edge maps and sketch
 + [Object-level data](https://drive.google.com/file/d/1P2kb1SCqnZrK_P32Vmcf5FShjbC9kN7e/view?usp=sharing)
 + [Scene-level data](https://drive.google.com/file/d/1ApjDhGjtqfFEMzm6dmyhS-2aXnnYLxnj/view?usp=sharing)
 + [Others](https://drive.google.com/file/d/1JxTmgLOM8P-3U2kNzTFP6fm2TS-ZAnPT/view?usp=sharing)
++ [Image Source](https://drive.google.com/file/d/1qVw0jp0dpLPeJw70s6sLNU2RSd-E3E5k/view?usp=sharing)
 
 <h2 id="4">Optional</h2>
 
