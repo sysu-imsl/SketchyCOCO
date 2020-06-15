@@ -2,11 +2,12 @@
 
 This repository hosts the ShetchyCOCO dataset. Please refer to our CVPR paper for more information: ["SketchyCOCO: Image Generation from Freehand Scene Sketches"](https://arxiv.org/abs/2003.02683).
 
-SketchyCOCO dataset can be explored by http://sysu-imsl.com/SketchyCOCO/#profile.
+SketchyCOCO dataset can be explored by https://sysu-imsl.com/EdgeGAN/dataset.html.
 
 ## Overview
 
 + [Dataset](#1)
++ [Dataset Augmentation](#6)
 + [Captions of the file structure in the dataset](#2)
 + [Google Drive Hosting](#3)
 + [Optional](#4)
@@ -20,6 +21,14 @@ SketchyCOCO dataset consists of two part:
   + Object-level data contains $20198(train18869+val1329)$ triplets of \{foreground sketch, foreground image, foreground edge map\} examples covering 14 classes, $27683(train22171+val5512)$ pairs of \{background sketch, background image\} examples covering 3 classes. 
 + Scene-level data
   + Scene-level data contains $14081(train 11265 + val 2816)$ pairs of \{foreground image\&background sketch, scene image\} examples, $14081(train 11265 + val 2816)$  pairs of  \{scene sketch, scene image\} examples and the  segmentation ground truth for $14081(train 11265 + val 2816)$ scene sketches. Some val scene images come from the train images of the COCO-Stuff dataset for increasing the number of the val images of the SketchyCOCO dataset.
+
+<h2 id="6">Dataset Augmentaion</h2>
+
+We increase 4662 images for 9 objects, their correspondence edge maps and sketches. The details of dataset augmentation is shown below. And the augmentation has been merged into Object-level data.
+
+| cat  | dog  | zebra | giraffe | horse | cow  | elephant | sheep | Car  |
+| ---- | ---- | ----- | ------- | :---- | ---- | -------- | ----- | ---- |
+| 659  | 777  | 401   | 246     | 773   | 628  | 398      | 369   | 411  |
 
 <h2 id="2">Captions of the file structure in the dataset</h2>
 
@@ -46,9 +55,9 @@ SketchyCOCO dataset consists of two part:
 
 <h2 id="3">Google Drive Hosting(in preparing)</h2>
 
-+ Object-level data
-+ Scene-level data
-+ Others
++ [Object-level data](https://drive.google.com/file/d/1P2kb1SCqnZrK_P32Vmcf5FShjbC9kN7e/view?usp=sharing)
++ [Scene-level data](https://drive.google.com/file/d/1ApjDhGjtqfFEMzm6dmyhS-2aXnnYLxnj/view?usp=sharing)
++ [Others](https://drive.google.com/file/d/1JxTmgLOM8P-3U2kNzTFP6fm2TS-ZAnPT/view?usp=sharing)
 
 <h2 id="4">Optional</h2>
 
