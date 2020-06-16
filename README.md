@@ -77,7 +77,7 @@ We increase 4662 images for 9 objects, their correspondence edge maps and sketch
 + The pairs of the scenes can be obtained by running ./matlab_code/combineScript.m after changing the parameters in the code.
 
 <h2 id="5">Licensing</h2>
-SketchyCOCO is a derivative work of the COCO-Stuff, the Sketchy Database. The authors of the COCO-Stuff, the Sketchy Database do not in any form endorse this work. Different licenses apply:
+SketchyCOCO is a derivative work of [the Sketchy Database](http://sketchy.eye.gatech.edu/), [TU Berlin](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/), [COCO-Stuff dataset](https://github.com/nightrome/cocostuff), [Car Dataset](http://ai.stanford.edu/~jkrause/cars/car_dataset.html), [cats_vs_dogs](https://tensorflow.google.cn/datasets/catalog/cats_vs_dogs?hl=zh-cn) and [pascal voc 2012](http://host.robots.ox.ac.uk/pascal/VOC/). The authors of the COCO-Stuff, the Sketchy Database, TU Berlin, Car Dataset, cats_vs_dogs and pascal voc 2012 do not in any form endorse this work. Different licenses apply:
 
 + Images: [Flicker Terms of use](https://info.yahoo.com/legal/us/yahoo/utos/utos-173.html)
 + Sketches: [Creative Commons Attribution 4.0 License](http://cocodataset.org/#termsofuse)
