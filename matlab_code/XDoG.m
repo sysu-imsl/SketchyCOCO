@@ -15,7 +15,7 @@ edge_files = sprintf('%s/data/Object/Edge/%s/', root, type);
 origin_dirs = dir(origin_files);
 
 for index = 3 : length(origin_dirs)
-    cur_name = origin_dir(index).name;
+    cur_name = origin_dirs(index).name;
     origin_dir = sprintf('%s/%s/', origin_files, cur_name);
     
     output_dir = sprintf('%s/%s/', edge_files, cur_name);
