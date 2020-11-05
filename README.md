@@ -1,8 +1,8 @@
-# SketchyCOCO dataset
+SketchyCOCO dataset
 
 This repository hosts the ShetchyCOCO dataset. Please refer to our CVPR paper for more information: ["SketchyCOCO: Image Generation from Freehand Scene Sketches"](https://arxiv.org/abs/2003.02683).
 
-SketchyCOCO dataset can be explored by https://sysu-imsl.com/EdgeGAN/dataset.html.
+SketchyCOCO dataset can be explored by https://sysu-imsl.com/EdgeGAN/dataset.html or https://sysu-imsl.github.io/EdgeGAN/dataset.html.
 
 ## Overview
 
@@ -10,6 +10,7 @@ SketchyCOCO dataset can be explored by https://sysu-imsl.com/EdgeGAN/dataset.htm
 + [Dataset Augmentation](#6)
 + [Captions of the file structure in the dataset](#2)
 + [Google Drive Hosting](#3)
++ [Baidu Netdisk Hosting](#7)
 + [Optional](#4)
 + [Licensing](#5)
 
@@ -53,12 +54,23 @@ We increase 4662 images for 9 objects, their correspondence edge maps and sketch
   + Image Source - Files storing the source of images
 + matlab_code - Codes for building the dataset
 
-<h2 id="3">Google Drive Hosting(in preparing)</h2>
+<h2 id="3">Google Drive Hosting</h2>
 
 + [Object-level data](https://drive.google.com/file/d/1P2kb1SCqnZrK_P32Vmcf5FShjbC9kN7e/view?usp=sharing)
 + [Scene-level data](https://drive.google.com/file/d/1ApjDhGjtqfFEMzm6dmyhS-2aXnnYLxnj/view?usp=sharing)
 + [Others](https://drive.google.com/file/d/1JxTmgLOM8P-3U2kNzTFP6fm2TS-ZAnPT/view?usp=sharing)
 + [Image Source](https://drive.google.com/file/d/1qVw0jp0dpLPeJw70s6sLNU2RSd-E3E5k/view?usp=sharing)
+
+<h2 id="7">Baidu Netdisk Hosting</h2>
+
++ [Object-level data](https://pan.baidu.com/s/1jO0GyWwonamduc6Umo5X_g)  Password:nv6n
++ [Scene-level data A](https://pan.baidu.com/s/1udiN_nbBUarB1DChytR7SQ)  Password:7k48
++ [Scene-level data B](https://pan.baidu.com/s/1EZZT6eWsfliCv1x5-EwWWw)  Password:l43w
++ [Scene-level data C](https://pan.baidu.com/s/1b6jlnDMGD0kC6jsAuO0zxw)  Password:3umq
++ [Others](https://pan.baidu.com/s/1kn3qgiK-9T_qNSvZpW3Fhg)  Password:kbxl
++ [Image Source](https://pan.baidu.com/s/1tD3LE7oDhKQSGi53GRW1-Q)  Password:vrem
+
+PS: Merge trainInTrain_part of Scene-level data B and data C into  GT/trainInTrain of Scene-level data A after downloading.
 
 <h2 id="4">Optional</h2>
 
