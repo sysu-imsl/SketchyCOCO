@@ -67,7 +67,7 @@ We increase 4662 images for 9 objects, their correspondence edge maps and sketch
 + [Scene-level data A](https://pan.baidu.com/s/1udiN_nbBUarB1DChytR7SQ)  Password:7k48
 + [Scene-level data B](https://pan.baidu.com/s/1EZZT6eWsfliCv1x5-EwWWw)  Password:l43w
 + [Scene-level data C](https://pan.baidu.com/s/1b6jlnDMGD0kC6jsAuO0zxw)  Password:3umq
-+ [Others](链接:https://pan.baidu.com/s/1KH5ZvRp7_LixP0LARC5_5g)  Password:4hy0
++ [Others](https://pan.baidu.com/s/1KH5ZvRp7_LixP0LARC5_5g)  Password:4hy0
 + [Image Source](https://pan.baidu.com/s/1tD3LE7oDhKQSGi53GRW1-Q)  Password:vrem
 
 PS: Merge trainInTrain_part of Scene-level data B and data C into  GT/trainInTrain of Scene-level data A after downloading.
